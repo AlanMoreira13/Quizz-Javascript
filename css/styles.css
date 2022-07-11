@@ -159,6 +159,7 @@ body {
 @media screen and (max-width: 450px) {
   #main-title {
     font-size: 2em;
+    color: blue;
   }
 
   #quizz-container {
