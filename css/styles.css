@@ -108,10 +108,12 @@ body {
   color: #fff;
   text-transform: capitalize;
   border-radius: 50%;
-  padding: 4px 6px;
+  font-size: 20px;
+  padding: 4px 9px;
   cursor: pointer;
   font-weight: bold;
   transition: 0.8s;
+  
 }
 
 .question-answer {
@@ -120,20 +122,17 @@ body {
   font-weight: 600;
 }
 
-#answers-box {
-  display: flex;
-  flex-direction: column;
-}
+
 #answers-box button {
   display: flex;
   align-items: center;
   background-color: #fabbff44;
-  width: 60%;
+  width: 100%;
   display: flex;
   border: 2px solid transparent;
   border-radius: 20px;
   padding: 5px;
-  margin: 10px 0;
+  margin: 20px 0;
   transition: 0.8s;
   cursor: pointer;
 }
@@ -162,16 +161,23 @@ body {
   }
 
   #quizz-container {
-    margin: 100px auto;
-    width: 300px;
+    width: 96%;
   }
 
   #quizz-container p {
-    font-size: 1em;
+    font-size: 1.2em;
+  }  
+
+  #answers-box .question-answer {
+    font-size: 1.5em;
+  }
+
+  #answers-box .btn-letter {
+    font-size: 2em;
   }
 
   #answers-box button {
-    width: 80%;
-    margin: 8px 0;
+    width: 100%;
+    margin: 25px 0;
   }
 }
