@@ -4,3 +4,5 @@
 ✔ Javascript Vanilla <br>
 ✔ HTML <br>
 ✔ CSS <br>
+#
+<em><strong>Link deploy do projeto 🔗: </strong></em> <a href="https://alanmoreira13.github.io/Quizz-Javascript/">Quizz</a><br>
